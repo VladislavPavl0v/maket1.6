@@ -1,0 +1,474 @@
+@media screen and (min-width: 768px) {
+    .header__menu-item[hidden] {
+      display: block;
+    }
+    .header__actions {
+      min-width: 350px;
+      margin-right: 24px;
+      padding-left: 80px;
+    }
+    .header__logo {
+      margin-right: 135px;
+    }
+    .header__burger::after {
+      position: absolute;
+      display: inline-block;
+      content: "";
+      margin-right: 20px;
+      height: 32px;
+      width: 2px;
+      left: 84px;
+      top: 25px;
+      width: 2px;
+      border-radius: 1px;
+      background: #eaeaea;
+    }
+    .header__burger {
+      margin-left: 24px;
+    }
+    .main__about {
+      display: flex;
+      justify-content: space-between;
+    }
+    .about__text-container {
+      float: left;
+      min-width: 340px;
+      margin-left: 24px;
+    }
+    .about__text-container--hidden{
+    height: 220px;
+    transition: 0.5s;
+    }
+    .about__image-container {
+      float: right;
+      min-width: 370px;
+      height: 259px;
+      margin-right: 25px;
+      margin-top: 14px;
+    }
+    .about__image-container--picture {
+      width: 360px;
+      height: 230px;
+    }
+    .about__text-container--text {
+      overflow: hidden;
+      height: 143px;
+    }
+    .services__navigation {
+      min-width: 248px;
+    }
+    .header {
+      background: $white;
+    }
+    .brands.brends__Size {
+      background-color: #f2f2f2;
+      min-width: 768px;
+      height: 280px;
+      transition: 0.5s;
+      overflow: hidden;
+    }
+    .swiper-wrapper.brend-slider__wrapper {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-content: space-evenly;
+      gap: 32px 32px;
+    }
+    .swiper-slide.brend-slider__slide {
+      width: 224px;
+    }
+    .swiper.brend-slider {
+      min-width: 768px;
+    }
+    .swiper-pagination.brend-slider__pagination {
+      display: none;
+    }
+    .swiper-pagination.technic-slider__pagination {
+      display: none;
+    }
+    .swiper-pagination.price-slider__pagination {
+      display: none;
+    }
+    .brends__title,
+    .technic__title,
+    .price__title {
+      height: 56px;
+    }
+    .brends__Size {
+      height: 500px;
+      background-color: $background;
+      transition: 0.5s;
+    
+    }
+    .brands__show-more-btn{
+      cursor: pointer;
+      border: 0;
+      background: none;
+      font-family: "TT Lakes Medium";
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      z-index: 3;
+      position: absolute;
+     display: block;
+    }
+    .brands__show-more-buttom {
+      position: absolute;
+      top: 750px;
+  }
+   .brands__show-more-btn::before {
+      content: url(../img/hidden-icon.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      margin-right: 17px;
+      display: inline-block;
+      transform: rotate(180deg);
+      transition: 0.5s;
+    }
+    .brands__show-more-buttom::before {
+      display: inline-block;
+      transform: rotate(360deg);
+      transition: 0.5s;
+    }
+    .brands__blure-conteiner,
+    .technic__blure-conteiner,
+    .price__blure-conteiner {
+      display: none;
+    }
+    .technic.technic__Size {
+      background-color: $background;
+      min-width: 768px;
+      height: 275px;
+      position: relative;
+      transition: 0.5s;
+      overflow: hidden;
+    }
+    .technic__show-more-btn::before {
+      content: url(../img/hidden-icon.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      margin-right: 17px;
+      display: inline-block;
+      transform: rotate(180deg);
+      transition: 0.5s;
+    }
+    .technic__show-more-btn {
+      cursor: pointer;
+      border: 0;
+      background: none;
+      font-family: "TT Lakes Medium";
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      z-index: 3;
+      position: absolute;
+      transition-duration: 0.5s;
+      display: block;
+    }
+    .technic__show-more-buttom {
+      position: absolute;
+      top: 250px;
+      transition-duration: 1s;
+    }
+    .technic__show-more-buttom::before {
+      display: inline-block;
+      transform: rotate(360deg);
+      transition: 0.5s;
+    }
+    .technic__Size {
+      background-color: $background;
+      height: 700px;
+      transition: 0.5s;
+    }
+    .swiper.technic-slider {
+      width: 768px;
+    }
+    .swiper-wrapper.technic-slider__wrapper {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: space-evenly;
+      height: 600px;
+      gap: 30px 20px;
+      margin: 0;
+    }
+    .swiper-slide.technic-slider__slide {
+      width: 224px;
+      height: 160px;
+    }
+    .price {
+      min-width: 768px;
+      height: 480px;
+    }
+    .swiper.price-slider {
+      width: 720px;
+    }
+    .swiper-slide.price-slider__slide {
+      width: 720px;
+      min-height: 68px;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+    }
+    .swiper-wrapper.price-slider__wrapper {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
+    .price-slider__title,
+    .price-slider__title-rate,
+    .price-slider__title-term {
+      display: none;
+    }
+    .price-slider__title-service,
+    .price-slider__title-value,
+    .price-slider__title-time {
+      position: static;
+    }
+    .price-slider__title-service {
+      width: 350px;
+    }
+    .price-slider__title-value {
+      width: 90px;
+    }
+    .price-slider__slide {
+      border-top: $background-grey solid 1px;
+    }
+    .price-slider__slide:nth-child(1) {
+      border-top: none;
+    }
+  
+    .price__headingSliderConteiner {
+      display: flex;
+      width: 720px;
+      height: 43px;
+      margin-left: 15px;
+      padding-top: 15px;
+    }
+    .price-slider__img-button {
+      position: absolute;
+      transform: translate(450px, 5px);
+    }
+    .price__headingSliderTitle {
+      color: $grey;
+      font-family: "TT Lakes Medium";
+      font-size: 14px;
+      width: 105px;
+      height: 43px;
+    }
+    .price__headingSliderTitle:nth-child(1) {
+      width: 365px;
+    }
+    .footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      height: 105px;
+      align-items: center;
+    }
+    .footer__info {
+      width: 220px;
+    }
+    .application__proposal--br {
+      display: none;
+    }  
+  }
+  
+  @media screen and (min-width: 1440px) {
+  body {
+    display: flex;
+  }
+  .aside-menu{
+  left: 0;
+  }
+  .header {
+     display: none;
+    }
+    .services__actions {
+      display: block;
+    }
+    .services__actions {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      min-width: 830px;
+    
+    }
+  
+    .service__action-name {
+      font-family: "TT Lakes Medium", Medium;
+      font-size: 16px;
+      height: 25px;
+      color: $main-text-color;
+      margin-right: 8px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+    }
+    .service__action-name {
+      margin-left: 32px;
+    }
+    .services {
+     justify-content: space-between;
+      margin-top: 42px;
+      margin-bottom: 8.3px;
+    }
+    br {
+      display: none;
+    }
+    .about__text-container--br {
+      display: block;
+    }
+    .about__button{
+    display: none;
+    }
+    .about__text-container--text.about__text-container--hidden {
+    height: 300px;
+    }
+    .about__text-container {
+     min-width: 490px;
+      margin-left: 34px;
+      margin-top: 32px;
+    }
+    .about__image-container {
+      min-width: 530px;
+      height: 383px;
+      margin-top: 10px;
+      margin-right: 28px;
+    }
+    .about__image-container--picture {
+      width: 530px;
+      height: 380px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .brands.brends__Size {
+      min-width: 1120px;
+      min-height: 282px;
+      overflow: hidden;
+      transition-duration: 0.5s;
+    }
+    .brands__show-more-buttom{
+      top: 780px;
+      z-index: 3;
+      position: absolute;
+      transition-duration: 0.5s;
+      display: block;
+    }
+    .brands__show-more-butn{
+    transition: 0.5s;
+    }
+    .swiper.brend-slider {
+      min-width: 1120px;
+    }
+    .swiper-wrapper.brend-slider__wrapper {
+      gap: 10px 48px;
+      min-height: 300px;
+    }
+   .swiper-slide.technic-slider_slide {
+      width: 240px;
+    }
+    .technic {
+     min-width: 1120px;
+    }
+    .swiper.technic-slider {
+      min-width: 1100px;
+    }
+    .swiper-wrapper.technic-slider__wrapper {
+      justify-content: flex-start;
+      gap: 0px 53px;
+    }
+    .price {
+     min-width: 1124px;
+      height: 480px;
+    }
+    .swiper.price-slider {
+      min-width: 1110px;
+    }
+    .swiper-wrapper.price-slider__wrapper {
+      min-width: 1110px;
+    }
+    .swiper-slide.price-slider__slide {
+      min-width: 1070px;
+      min-height: 64px;
+    }
+    .price-slider__img-button {
+      position: absolute;
+      transform: translate(780px, 5px);
+    }
+    .price__headingSliderTitle:nth-child(1) {
+      width: 450px;
+    }
+    .price-slider__title-service {
+      width: 435px;
+    }
+    .price__headingSliderTitle:nth-child(2) {
+      width: 180px;
+    }
+    .price-slider__title-value {
+      width: 150px;
+    }
+  
+    .application__text {
+      width: 440px;
+    }
+    .footer {
+  
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 85px;
+      align-items: center;
+      padding-left: 33px;
+      padding-right: 33px;
+    }
+    .footer__info:nth-child(1) {
+      text-align: left;
+    }
+  
+    .footer__info:nth-child(3) {
+      text-align: right;
+      width: 330px;
+    }
+    .footer__info--br {
+      display: none;
+    }
+    .aside-menu__burger{
+    display: none
+    }
+    .aside-menu__header{
+   padding-top: 46px
+    }
+    .modal-call,
+    .modal-feedback {
+      width: 440px;
+      height: 100%;
+      box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02),
+        16px 0px 52px rgba(14, 24, 80, 0.2);
+      &__btn-close {
+        display: block;
+        position: absolute;
+        top: 40px;
+        left: -73px;
+      }
+      &__title {
+        margin-top: 16px;
+      }
+      &__text {
+        width: 293px;
+      }
+      &__btn-order {
+        position: relative;
+        width: 136px;
+        top: 18px;
+        right: -155px;
+        justify-content: space-between;
+      }
+    }
+  }
+  
+  
+  

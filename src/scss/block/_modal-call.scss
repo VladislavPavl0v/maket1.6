@@ -1,0 +1,95 @@
+
+.wrapper__modal-call {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+  position: absolute;
+  left: -3000px;
+  z-index: 5;
+  transition: 2s;
+
+  top: 0;
+  &--open {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    z-index: 6;
+    transition: 1s;
+  }
+}
+.modal-call__btn-close{
+background: none;
+}
+.modal-call__btn-order{
+background: none;
+}
+
+.modal-call {
+  position: absolute;
+  width: 320px;
+  height: 676px;
+  right: 0;
+  padding-top: 24px;
+  padding-left: 16px;
+  background: #ffffff;
+  z-index: 6;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02),
+  16px 0px 52px rgba(14, 24, 80, 0.2);
+
+  &__title {
+    font-family: "TT Lakes Bold";
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    color: $main-text-color;
+    margin-top: 40px;
+    &:before {
+      content: '';
+      width: 4px;
+      height: 40px;
+      position: absolute;
+      left: 0;
+      background: $green;
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+  }
+  &__input {
+    font-family: "TT Lakes Medium";
+    width: 288px;
+    height: 48px;
+    padding: 12px 16px;
+    margin-top: 24px;
+    &[type='tel'] {
+      font-family: "TT Lakes Medium";
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      color: #b5b6bc;
+    }
+  }
+  &__text {
+    font-family: "TT Lakes Medium";
+    width: 288px;
+    height: 64px;
+    font-size: 14px;
+    line-height: 16px;
+    color: $grey;
+    margin-top: 16px;
+  }
+  &__span {
+    font-family: "TT Lakes Medium";
+    color: $pink;
+  }
+  &__btn-order {
+    position: relative;
+    width: 136px;
+    top: 18px;
+    right: -140px;
+    justify-content: space-between;
+  }
+}

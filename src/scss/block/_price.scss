@@ -1,0 +1,84 @@
+.price {
+    background-color: $background;
+    min-width: 320px;
+  }
+  .price-slider {
+    width: 320px;
+    min-height: 260px;
+  }
+  .price-slider__slide {
+    cursor: pointer;
+    min-height: 200px;
+    background-color: $white;
+    border: 1px solid $white;
+    border-radius: 6px;
+    text-align: left;
+  }
+  .price-slider__pagination .swiper-pagination-bullet {
+    background: #dddddd;
+    width: 12px;
+    height: 12px;
+  }
+  .price-slider__pagination .swiper-pagination-bullet-active {
+    background-color: #b5b6bc;
+  }
+  .price__blure-conteiner {
+    background: linear-gradient(
+      270deg,
+      #f8f8f8 16.84%,
+      rgba(248, 248, 248, 0.0001) 100%
+    );
+    width: 24px;
+    height: 200px;
+    position: absolute;
+    left: 95%;
+    top: 5%;
+    z-index: 3;
+  }
+  .price-slider__img-button {
+    position: absolute;
+    left: 130px;
+    bottom: 20px;
+  }
+  .price-slider__title {
+    color: $grey;
+    font-family: "TT Lakes Medium";
+    font-size: 14px;
+    position: absolute;
+    top: 10px;
+  }
+  .price-slider__title-service {
+    color: $main-text-color;
+    font-family: "TT Lakes Medium";
+    font-size: 14px;
+    position: absolute;
+    top: 30px;
+  }
+  .price-slider__title-rate {
+    color: $grey;
+    font-family: "TT Lakes Medium";
+    font-size: 14px;
+    position: absolute;
+    top: 80px;
+  }
+  .price-slider__title-value {
+    color: #1b1c21;
+    font-family: "TT Lakes Medium";
+    font-size: 14px;
+    position: absolute;
+    top: 100px;
+  }
+  .price-slider__title-term {
+    color: $grey;
+    font-family: "TT Lakes Medium";
+    font-size: 14px;
+    position: absolute;
+    top: 135px;
+  }
+  .price-slider__title-time {
+    color: $main-text-color;
+    font-family: "TT Lakes Medium";
+    font-size: 14px;
+    position: absolute;
+    top: 155px;
+  }

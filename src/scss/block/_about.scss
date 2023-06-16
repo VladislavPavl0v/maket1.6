@@ -1,0 +1,56 @@
+
+.about__text-container {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .about__text-container--text.about__text-container--hidden {
+    overflow: hidden;
+    height: 90px;
+    letter-spacing: 0.2px;
+    background: $background-grey;
+    font-family: "TT Lakes Regular", Regular;
+    color: $main-text-color;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    transition: 0.5s;
+  }
+  .about__text-container--hidden{
+    height: 250px;
+    letter-spacing: 0.2px;
+    background:$background-grey;
+    font-family: "TT Lakes Regular", Regular;
+    color: $main-text-color;
+    font-size: 14px;
+    line-height: 18px;
+   text-align: left;
+    transition: 0.5s;
+  }
+  .about__button::before {
+    content: url(../img/hidden-icon.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 16px;
+    display: inline-block;
+    background-color: none;
+    transform: rotate(180deg);
+    font-family: "TT Lakes Medium", Medium;
+    font-size: 16px;
+  
+  }
+  .about__btn::before  {
+    transform: rotate(360deg);
+    transition: 0.5s;
+    display: inline-block;
+  }
+  .about__button {
+    background-color: $background-grey;
+    font-family: "TT Lakes Medium", Medium;
+    font-size: 16px;
+  }
+  .about__image-container {
+    background-color:$background-grey;
+    min-width: 320px;
+    margin-top: 28px;
+    }

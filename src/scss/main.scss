@@ -1,0 +1,30 @@
+
+$main-text-color: #1b1c21;
+$pink: #ff3e79;
+$light-grey: #eaeaea;
+$grey: #7e7e82;
+$green: #41f6d7;
+$background-grey: #f8f8f8;
+$white: #ffffff;
+$border: #d9fff5;
+$border-green: #b8ffec;
+$background: #f2f2f2;
+$menu-activ:  #b5b6bc;
+
+@import "vendor";
+@import "base";
+@import "fonts";
+@import"./block/_header";
+@import"./block/servises";
+@import"./block/about";
+@import"./block/brands";
+@import "./block/aplication";
+@import"./block/technic";
+@import"./block/footer.scss";
+@import"./block/price";
+@import "./block/aside";
+@import "./block/modal-call";
+@import "./block/modal-feedback";
+@import"./block/media";
+
+  

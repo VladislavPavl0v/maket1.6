@@ -1,0 +1,14 @@
+
+.footer {
+    border-top: #d9fff5 solid 1px;
+    background-color: #f8f8f8;
+    text-align: center;
+    font-family: "TT Lakes Medium";
+    color: $grey;
+    font-size: 14px;
+    height: 147px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
